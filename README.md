@@ -107,6 +107,14 @@ CAVERNE
 Il se peut que vous trouviez une caverne dans un niveau, celle-ci contient
 soit des coffres, soit beaucoup d'ennemis ...
 
+Voici a quoi elle pourrait ressembler :
+
+   _| |_  
+ `/     \'
+  |     | 
+  |     | 
+ ,\_____/.
+
 ENNEMI
 
 Les ennemis ont une IA evolutive (en fonction du niveau dans lequel vous vous
@@ -154,6 +162,12 @@ utiliser une potion de ce type et qu'elle n'a pas finis son effet.
 La potion de sante I necessite d'attendre 3 tours avant de reutiliser une potion
 de sante. La potion de sante II necessite d'attendre 8 tours avant de reutiliser
 une potion de sante.
+
+TRESOR
+
+Il existe 50 tresors dans le jeu. Un tresor se compose d'un nom, d'un nombre de
+tek correspondant au cout de la vente du tresor. Vous pouvez vendre vos tresors
+dans la boutique et ainsi obtenir des teks.
 
 CLE
 

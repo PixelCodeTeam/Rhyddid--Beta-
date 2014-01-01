@@ -158,6 +158,12 @@ La potion de sante I necessite d'attendre 3 tours avant de reutiliser une potion
 de sante. La potion de sante II necessite d'attendre 8 tours avant de reutiliser
 une potion de sante.
 
+TRESOR
+
+Il existe 50 tresors dans le jeu. Un tresor se compose d'un nom, d'un nombre de
+tek correspondant au cout de la vente du tresor. Vous pouvez vendre vos tresors
+dans la boutique et ainsi obtenir des teks.
+
 CLE
 
 La cle de fin de niveau se trouve sur un ennemi dans le niveau, il faut tuer cet
