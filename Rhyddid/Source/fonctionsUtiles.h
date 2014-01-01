@@ -22,10 +22,9 @@ sortes */
 #define PAS_SEPARATION 0
 #define SEPARATION 1
 
-#define compteur register unsigned int
-
 /* ----- Structure + Enumeration ----- */
 
+typedef unsigned int compteur;
 
 /* ----- Prototype ----- */
 

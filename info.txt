@@ -3,7 +3,7 @@ Beta Rhyddid
 Info :
 
 Aucun bug non corrige pour le moment.
-9621 lignes de code.
+9620 lignes de code.
 97 fichiers sources.
 
 Fait :
