@@ -165,7 +165,9 @@ void afficherSalleActuelle(void)
 				afficherCaractereNiveau(niveauActuel.salle[niveauActuel.salleActuelle].mapSalle[indexLig][indexCol]);
 		}
 
-		putchar('\n');
+		#ifndef __WIN32__
+			putchar('\n');
+		#endif
 	}
 }
 
