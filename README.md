@@ -107,14 +107,6 @@ CAVERNE
 Il se peut que vous trouviez une caverne dans un niveau, celle-ci contient
 soit des coffres, soit beaucoup d'ennemis ...
 
-Voici a quoi elle pourrait ressembler :
-
-   _| |_  
- `/     \'
-  |     | 
-  |     | 
- ,\_____/.
-
 ENNEMI
 
 Les ennemis ont une IA evolutive (en fonction du niveau dans lequel vous vous
