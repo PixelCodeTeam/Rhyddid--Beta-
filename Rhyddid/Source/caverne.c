@@ -186,10 +186,10 @@ void bloquerAccesIndispensableEntreeCaverne(const unsigned int indexSalle)
 	compteur indexLig, indexCol;
 
 	/* Pour chaque ligne de la salle */
-	for(indexLig = 0; indexLig < LONGUEUR_SALLE; ++indexLig)
+	for(indexLig = 0; indexLig < LARGUEUR_SALLE; ++indexLig)
 	{
 		/* Pour chaque colonne de la salle */
-		for(indexCol = 0; indexCol < LARGUEUR_SALLE; ++indexCol)
+		for(indexCol = 0; indexCol < LONGUEUR_SALLE; ++indexCol)
 		{
 			/* Si le caractere actuel est l'entree d'une caverne */
 			if(niveauActuel.salle[indexSalle].mapSalle[indexLig][indexCol] == 'E')
@@ -338,10 +338,10 @@ void rechercherEntreeCaverne(unsigned int *ligneEntreeCaverne,
 	compteur indexLig, indexCol;
 
 	/* Pour chaque ligne de la salle */
-	for(indexLig = 0; indexLig < LONGUEUR_SALLE; ++indexLig)
+	for(indexLig = 0; indexLig < LARGUEUR_SALLE; ++indexLig)
 	{
 		/* Pour chaque colonne de la salle */
-		for(indexCol = 0; indexCol < LARGUEUR_SALLE; ++indexCol)
+		for(indexCol = 0; indexCol < LONGUEUR_SALLE; ++indexCol)
 		{
 			/* Si le caractere actuel est l'entree d'une caverne */
 			if(niveauActuel.salle[niveauActuel.salleActuelle].mapSalle[indexLig][indexCol] == 'E')
